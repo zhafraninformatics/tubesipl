@@ -27,10 +27,10 @@ body {
 
 /* Styling Class Wrapper di index*/
 .wrapper {
-    width: 1350px;
+    width: 10px;
     margin: auto;/*membuat wrapper dibagian tengah*/
     position: relative;
-    background-color: honeydew;
+    background-color: rgb(10, 10, 10);
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ body {
     margin-inline-start: 30px;
     float: left; /*untuk posisi tulisan twofood terletak di kiri */
     font-family: courier;
-    color: #364f6b;
+    color: #0c0c0c;
 
 }
 
@@ -64,7 +64,7 @@ nav {
     top: 0; /*urutan dari atas akan menempel di bagian atas */
     background: #FFFF;
     z-index: 1; /*agar navbar tidak menghilang*/
-    border-bottom: 3px solid #0056be; /*garis bawah navbar*/
+    border-bottom: 3px solid #ffffff; /*garis bawah navbar*/
 }
 
 /*styling keseluruhan bagian nav ul bagian navbar */
@@ -243,23 +243,7 @@ h2 {
 
 
 
-/*styling untuk button signup*/
-a.tbl-biru {
-    background: #3f72af; /*warna button*/
-    border-radius: 10px; /*bentuk bulat button*/
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px; /*15 dari atas 20 dari kanan 15 dari bawah 20 dari kiri*/
-    color: #FFFF;
-    cursor: pointer;
-    font-weight: bold;
 
-}
-
-/*reaksi ketika kursos mendekati button signup*/
-a.tbl-biru:hover {
-    background: #70f008;
-    text-decoration: solid;
-}
 
 /*styling untuk button order now*/
 a.tbl-pink {
