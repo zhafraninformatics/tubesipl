@@ -7,106 +7,35 @@
 
 /* semua tampilan html bentuk font*/
 body {
-    margin: 0px;
+    margin:1350;
     padding: 0px;
     margin-top: 0px;
     font-family: 'Open Sans',sans-serif;
     background-color: ghostwhite;
-    background-image: url(gambar/istockphoto-481068380-612x612-removebg-preview.png);
-    background-size: 100%;
-    width: 100%;
-    height: 100%;
-    
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.depositphotos.com%2Fstock-photos%2Fmakanan-indonesia.html&psig=AOvVaw3EP8g4XaY_auHJrHhSbh_O&ust=1671012014590000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCID97f6q9vsCFQAAAAAdAAAAABAE);
+
 }
-
-
 
 .welcome{
-    height: 100%;
+    height: 90%;
 }
 
-/* Styling Class Wrapper di index*/
-.wrapper {
-    width: 1350px;
-    margin:auto;  /*membuat wrapper dibagian tengah*/
-    position: relative;
-    background-color: honeydew;
-    text-align: center;
-}
-
-/*Styling Class Logo kalimat Two Food Market Restaurant*/
-.logo a {
-    font-size: 30px;
-    font-weight: 800;
-    margin-inline-start: 30px;
-    float: left; /*untuk posisi tulisan twofood terletak di kiri */
-    font-family: courier;
-    color: #364f6b;
-
-}
-
-/*Styling class menu tampilan kalimat di navbar */
-.menu {
-    float: right; /*untuk posisi tulisan navbar terletak di kanan */
-    margin-inline-end: 30px;
-}
-
-/*styling bagian navigasi*/
-nav {
-    width: 100%;
-    margin-top: 0px;
-    display: flex; /*membuat seperti kolom kolom di menu menu nya */
-    line-height: 80px; /*posisi dari bagian atas dan bagian bawah bisa rata seimbang di bagian tengah dari div nya */
-    position: sticky; /*posisi bagian menu tetap di atas agar di scrool tidak hilang*/
-    position: -webkit-sticky; /*posisi untuk safari */ 
-    top: 0; /*urutan dari atas akan menempel di bagian atas */
-    background: #FFFF;
-    z-index: 1; /*agar navbar tidak menghilang*/
-    border-bottom: 3px solid #0056be; /*garis bawah navbar*/
-}
-
-/*styling keseluruhan bagian nav ul bagian navbar */
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; 
-}
-
-/*styling bagian nav ul bagian masing2 anggota navbar */
-nav ul li {
-    float: left; /*menuju ke bagian kiri */
-}
-
-nav ul li a {
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    padding: 0px 16px 0px 16px ; /*bisa urutan dari atas0px kanan16px kiri16px dan bawah0px bisa lebih tertata, */
-    text-decoration: none;
-} 
-
-/*styling bagian hover yaitu garis hitam dibawah tulisan bagian navbar pada saat kursos memilih icon  */
-nav ul li a:hover {
-    text-decoration: underline;
-}
 
 /*styling tulisan welcome*/
 .welcome {
-    margin-top: 50px;
-    margin-bottom: 30px; 
+    margin-top: 100px;
+    margin-bottom: 300px; 
     text-align: center;
 }
 
 h1 {
     font-style: oblique;
     font-family: cursive;
-    
 }
 
 h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #7c7c7c;
+    color: #ad3838;
 }
 
 
@@ -116,8 +45,10 @@ h3 {
     width: 2000px;
     height: 500px;
     margin-top: 10px;
+    margin-left: 0px;
     
 }
+
 img {
     width: 630px;
     height: 400px;
@@ -151,14 +82,32 @@ img {
     margin-right: 100px;
 }
 
+.container4  {
+    width: 1300px;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.container4 img {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
 
 /*pengaturan tab section di styling bagian isi*/
 section {
     margin-top: 0px;
     margin: auto;
     display: flex; /*membuat tampilan div berbentuk kolom */
+    margin-inline-end: 50px; /*ukuran stage sebelah kanan */
     margin-bottom: 0px; /*ukuran jeda agar bisa mempunyai jeda anatara 1 section dengan section yang lain */
 }
+
+
+
 
 /*pengaturan tab section di styling bagian isi di bagian class kolom*/
 .kolom {
@@ -175,6 +124,26 @@ section {
     font-weight: bold;
     font-family: 'comic sans ms';
     color: #364f6b;
+    margin-inline-start: 30px;
+   
+}
+
+.deskripsifav {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin-inline-start: 30px;
+    margin-inline-end: -100px;
+   
+}
+
+.kolom .deskripsi2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    text-align: center;
    
 }
 
@@ -189,23 +158,20 @@ h2 {
     line-height: 50px;
 }
 
-/*styling untuk button signup*/
-a.tbl-biru {
-    background: #3f72af; /*warna button*/
-    border-radius: 10px; /*bentuk bulat button*/
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px; /*15 dari atas 20 dari kanan 15 dari bawah 20 dari kiri*/
-    color: #FFFF;
-    cursor: pointer;
-    font-weight: bold;
-
+.kolom h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px; /*punya jarak dengan bawah nya*/
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+    margin-inline-start: 30px;
 }
 
-/*reaksi ketika kursos mendekati button signup*/
-a.tbl-biru:hover {
-    background: #70f008;
-    text-decoration: solid;
-}
+
+
+
 
 /*styling untuk button order now*/
 a.tbl-pink {
@@ -248,6 +214,13 @@ p {
     text-align: justify;
 }
 
+.kolom p {
+    margin: 10px 0px 10px 0px; /*kanan atas kiri bawah*/
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+    margin-inline-start: 40px;
+}
+
 /*styling kalimat class tengah*/
 
 .tengah {
@@ -272,12 +245,16 @@ p {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 /*styling masing-masing icon pelayanan*/
 .kartu-tutor {
     width: 20%;
-    margin: 0 auto;
+    margin: auto;
+    position: relative;
+    
+   
 }
 
 /*styling masing-masing gambar icon pelayanan*/
