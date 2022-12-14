@@ -1,3 +1,4 @@
+<<<<<<< reservation
 /* semua style diberikan margins dan padding 0 */
 * {
     text-decoration: none;
@@ -566,3 +567,328 @@ form input[type = submit]:hover{
         height: 330px;
     }
 }
+=======
+/* semua style diberikan margins dan padding 0 */
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* semua tampilan html bentuk font*/
+body {
+    margin:1350;
+    padding: 0px;
+    margin-top: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: ghostwhite;
+    background-image: url(gambar/intro-bg.jpg);
+
+}
+
+.welcome{
+    height: 90%;
+}
+
+
+/*styling tulisan welcome*/
+.welcome {
+    margin-top: 100px;
+    margin-bottom: 300px; 
+    text-align: center;
+}
+
+h1 {
+    font-style: oblique;
+    font-family: cursive;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ad3838;
+}
+
+
+
+/*ukuran gambar nasi goreng*/
+.container {
+    width: 2000px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 0px;
+    
+}
+
+img {
+    width: 630px;
+    height: 400px;
+    
+}
+
+.container2 {
+    width: 1300px;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 100px;
+    
+}
+.container2 img {
+    width: 630px;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.container3  {
+    width: 1300px;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.container3 img {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.container4  {
+    width: 1300px;
+    height: 600px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.container4 img {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+
+/*pengaturan tab section di styling bagian isi*/
+section {
+    margin-top: 0px;
+    margin: auto;
+    display: flex; /*membuat tampilan div berbentuk kolom */
+    margin-inline-end: 50px; /*ukuran stage sebelah kanan */
+    margin-bottom: 0px; /*ukuran jeda agar bisa mempunyai jeda anatara 1 section dengan section yang lain */
+}
+
+
+
+
+/*pengaturan tab section di styling bagian isi di bagian class kolom*/
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 0px; 
+    
+}
+
+
+
+/*styling kalimat deskripsi*/
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin-inline-start: 30px;
+   
+}
+
+.deskripsifav {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin-inline-start: 30px;
+    margin-inline-end: -100px;
+   
+}
+
+.kolom .deskripsi2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    text-align: center;
+   
+}
+
+/*styling kalimat h2 spesial fried rice*/
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px; /*punya jarak dengan bawah nya*/
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+.kolom h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px; /*punya jarak dengan bawah nya*/
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+    margin-inline-start: 30px;
+}
+
+
+
+
+
+/*styling untuk button order now*/
+a.tbl-pink {
+    background: #f3a006; /*warna button*/
+    border-radius: 50px; /*bentuk bulat button*/
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px; /*15 dari atas 20 dari kanan 15 dari bawah 20 dari kiri*/
+    color: #FFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*reaksi ketika kursos mendekati button order now*/
+a.tbl-pink:hover {
+    background: #f008d1;
+    text-decoration: solid;
+}
+
+/*styling untuk button seemore*/
+a.tbl-seemore{
+    background: #f32a06; /*warna button*/
+    border-radius: 50px; /*bentuk bulat button*/
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px; /*15 dari atas 20 dari kanan 15 dari bawah 20 dari kiri*/
+    color: #FFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*reaksi ketika kursos mendekati button seemore*/
+a.tbl-seemore:hover {
+    background: #f008d1;
+    text-decoration: solid;
+}
+
+/*ukuran jarak button ordernow*/
+p {
+    margin: 10px 0px 10px 0px; /*kanan atas kiri bawah*/
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+}
+
+.kolom p {
+    margin: 10px 0px 10px 0px; /*kanan atas kiri bawah*/
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+    margin-inline-start: 40px;
+}
+
+/*styling kalimat class tengah*/
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    
+}
+
+.p {
+    text-align: justify;
+}
+
+.deskripsi2{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*styling kalimat untuk bagian pelayanan yang kami berikan */
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/*styling masing-masing icon pelayanan*/
+.kartu-tutor {
+    width: 20%;
+    margin: auto;
+    position: relative;
+    
+   
+}
+
+/*styling masing-masing gambar icon pelayanan*/
+.kartu-tutor img {
+    width: 60%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+/*styling tulisan icon*/
+.kartu-tutor p {
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    color: #ff0202;
+     
+}
+
+/*styling tulisan cabang */
+h1 {
+    text-align: center;
+
+}
+
+
+/*atur posisi cabang*/
+.cabanglist {
+    width: 100%;
+    position: relative;
+    display: flex; /*biar bentuknya kolom kolom*/
+    flex-wrap: wrap; /*biar tidak jadi sllu 1 baris*/
+}
+
+.kartu-cabang {
+    width: 20%; 
+    margin: 0 auto; /* agar otomatis ketengah*/
+
+}
+
+/*atur posisi gambar cabang*/
+.kartu-cabang img {
+    width: 300px;
+    height: 320px;
+}
+
+.kartu-cabang h5 {
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
+}
+
+/*button view lokasi cabanng*/
+a.tbl-cabang{
+    background: #303030; /*warna button*/
+    border-radius: 50px; /*bentuk bulat button*/
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px; /*15 dari atas 20 dari kanan 15 dari bawah 20 dari kiri*/
+    color: #FFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+>>>>>>> master
