@@ -25,14 +25,7 @@ body {
     height: 100%;
 }
 
-/* Styling Class Wrapper di index*/
-.wrapper {
-    width: 1350px;
-    margin:auto;  /*membuat wrapper dibagian tengah*/
-    position: relative;
-    background-color: honeydew;
-    text-align: center;
-}
+
 
 /*Styling Class Logo kalimat Two Food Market Restaurant*/
 .logo a {
