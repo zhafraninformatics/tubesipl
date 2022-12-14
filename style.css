@@ -194,39 +194,7 @@ a.tbl-biru {
 
 }
 
-/*reaksi ketika kursos mendekati button signup*/
-a.tbl-biru:hover {
-    background: #70f008;
-    text-decoration: solid;
-}
-
-/*styling untuk button order now*/
-a.tbl-pink {
-    background: #f3a006; /*warna button*/
-    border-radius: 50px; /*bentuk bulat button*/
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px; /*15 dari atas 20 dari kanan 15 dari bawah 20 dari kiri*/
-    color: #FFFF;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-/*reaksi ketika kursos mendekati button order now*/
-a.tbl-pink:hover {
-    background: #f008d1;
-    text-decoration: solid;
-}
-
-/*styling untuk button seemore*/
-a.tbl-seemore{
-    background: #f32a06; /*warna button*/
-    border-radius: 50px; /*bentuk bulat button*/
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px; /*15 dari atas 20 dari kanan 15 dari bawah 20 dari kiri*/
-    color: #FFFF;
-    cursor: pointer;
-    font-weight: bold;
-}
+/
 
 /*reaksi ketika kursos mendekati button seemore*/
 a.tbl-seemore:hover {
