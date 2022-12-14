@@ -48,7 +48,7 @@ body {
 /*Styling class menu tampilan kalimat di navbar */
 .menu {
     float: right; /*untuk posisi tulisan navbar terletak di kanan */
-    margin-inline-end: 90px;
+    margin-inline-end: 50px;
 }
 
 /*styling bagian navigasi*/
