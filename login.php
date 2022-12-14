@@ -41,7 +41,7 @@
 
     <div class="container">
     <div class="jumbotron">
-     <h1>Hi Manager,<br> Welcome to <span class="edit"> Le Cafe' </span></h1>
+     <h1>Hi Manager,<br> Welcome to <span class="edit"> Two Taste Restaurant </span></h1>
      <br>
    <p>Kindly LOGIN to continue.</p>
     </div>
