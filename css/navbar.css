@@ -1,0 +1,85 @@
+.div .wrapper{
+   width: 100%;
+   margin-inline-end: 300px; 
+}
+
+.welcome{
+    height: 90%;
+}
+
+/* Styling Class Wrapper di index*/
+.wrapper {
+    width: 1350px;
+    margin: auto;/*membuat wrapper dibagian tengah*/
+    position: relative;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.wrapper2 {
+    width: 1350px;
+    margin: auto;/*membuat wrapper dibagian tengah*/
+    position: relative;
+    background-color: rgb(39, 41, 39);
+    text-align: center;
+}
+
+
+
+/*Styling Class Logo kalimat Two Food Market Restaurant*/
+.logo a {
+    font-size: 25px;
+    font-weight: 200;
+    margin-inline-start: 50px;
+    float: left; /*untuk posisi tulisan twofood terletak di kiri */
+    font-family: 'Calibri';
+    color: #b1b1b9;
+
+}
+
+/*Styling class menu tampilan kalimat di navbar */
+.menu {
+    float: right; /*untuk posisi tulisan navbar terletak di kanan */
+    margin-inline-end: 30px;
+}
+
+/*styling bagian navigasi*/
+nav {
+    width: 100%;
+    margin-top: 0px;
+    display: flex; /*membuat seperti kolom kolom di menu menu nya */
+    line-height: 55px; /*posisi dari bagian atas dan bagian bawah bisa rata seimbang di bagian tengah dari div nya */
+    position: sticky; /*posisi bagian menu tetap di atas agar di scrool tidak hilang*/
+    position: -webkit-sticky; /*posisi untuk safari */ 
+    top: 0; /*urutan dari atas akan menempel di bagian atas */
+    background: rgb(37, 35, 35);
+    z-index: 1; /*agar navbar tidak menghilang*/
+    border-bottom: 3px solid #2b2c2e; /*garis bawah navbar*/
+}
+
+/*styling keseluruhan bagian nav ul bagian navbar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+/*styling bagian nav ul bagian masing2 anggota navbar */
+nav ul li {
+    float: left; /*menuju ke bagian kiri */
+}
+
+nav ul li a {
+    color: #b1b1b9;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    padding: 0px 16px 0px 16px ; /*bisa urutan dari atas0px kanan16px kiri16px dan bawah0px bisa lebih tertata, */
+    text-decoration: none;
+} 
+
+/*styling bagian hover yaitu garis hitam dibawah tulisan bagian navbar pada saat kursos memilih icon  */
+nav ul li a:hover {
+    text-decoration: underline;
+}
